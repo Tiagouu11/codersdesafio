@@ -50,115 +50,13 @@
 iframe {
     position: absolute;
     right: 30px;
-    top: 65px;
+    top: 200px;
 
     border:solid 5px #17151c;
     border-radius: 12px;
 }
 
-.referidos1{
-    text-align: left;
-    height: 70px;
-    
-    
-    
-    p {
-    
-    border-radius: 12px;
-    background-image: url(https://img.freepik.com/vector-gratis/escalas-tecno-fondo-placas-metal-negro-decoracion-traceria-abstraccion-oscura_79145-563.jpg?size=626&ext=jpg);
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 0px;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    }
 
-    a:hover{
-        
-        text-decoration: none;
-        color: #dce1ac;
-        
-        transform: scale(1.4);
-    }
-
-    :link{
-        color: #e1b53d;;
-    }
-
-    :visited{
-        color: #e1b53d;;
-
-    }
-}
-
-.ref-home {
-    
-    
-    padding: 5px; 
-    margin: 5px;
-    
-    background: rgba( 147, 116, 33, 0.2 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 7.5px );
-    -webkit-backdrop-filter: blur( 7.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-    transition-property: all;
-    transition-duration: .5s;
-    transition-timing-function: ease;
-    
-}
-.ref-productos {
-    
-    padding: 5px;
-    margin: 5px;
-    
-    background: rgba( 147, 116, 33, 0.2 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 7.5px );
-    -webkit-backdrop-filter: blur( 7.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-    transition-property: all;
-    transition-duration: .5s;
-    transition-timing-function: ease;
-    
-}
-.ref-contacto {
-    
-    padding: 5px;
-    margin: 5px;
-    padding: 5px;
-    background: rgba( 147, 116, 33, 0.2 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 7.5px );
-    -webkit-backdrop-filter: blur( 7.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-    transition-property: all;
-    transition-duration: .5s;
-    transition-timing-function: ease;
-}
-.ref-blog {
-    
-    padding: 5px;
-    margin: 5px;
-    padding: 5px;
-    background: rgba( 147, 116, 33, 0.2 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 7.5px );
-    -webkit-backdrop-filter: blur( 7.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-    transition-property: all;
-    transition-duration: .5s;
-    transition-timing-function: ease;
-}
 
 .footer-basic {
     padding:40px 0;

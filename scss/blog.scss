@@ -7,9 +7,9 @@
 
     display: grid;
     grid-template-areas:
-    " header "
+    " header  "
     " main  "
-    " footer footer"
+    " footer "
     ;
 
     
@@ -17,18 +17,8 @@
 
 
 
-.titulo-blog {
-    font-family: "Anybody";
-    font-size: 12px;
-    text-decoration: underline;
-    color: #937421;
-    text-align: left;
-    margin-left: 100px;
-    
-    
-}
-
 .texto-blog {
+    margin-top: 100px;
     font-family: "Poppins";
     font-size: 12px;
     
@@ -43,40 +33,24 @@
     
     
     
-        border: solid 5px #000000;
+        border: solid 5px #a7a65a;
         border-radius: 12px;
     
     
         text-align: center;
     }
+    .envi-blog {
+        text-align: left;
+    }
 }
+
 .contenedor-texto-video{
     
-    border: solid 5px rgb(226, 211, 211);
+    
     
     display:inline-block
 
     
-    
-}
-.iframe {
-    
-    height: 300px;
-    width: 300px;
-    border: solid 5px #000000;
-    border-radius: 12px;
-     
-    transform: translate(-100px, -250px);
-    
-    
-   
-    
-    
-}
-.ytvideo1 {
-    display: flex;
-    justify-content: center;
-    transform: translate(-100px, -250px);
     
 }
 
@@ -91,60 +65,7 @@
     
 }
 
-.referidos1{
-    text-align: left;
-    height: 70px;
-    
-    
-    p {
-    
-    border-radius: 12px;
-    background-image: url(https://img.freepik.com/vector-gratis/escalas-tecno-fondo-placas-metal-negro-decoracion-traceria-abstraccion-oscura_79145-563.jpg?size=626&ext=jpg);
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 0px;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    }
-    
 
-    a:hover{
-        
-        text-decoration: none;
-        color: #dce1ac;
-        
-        transform: scale(1.4);
-    }
-
-    :link{
-        color: #e1b53d;;
-    }
-
-    :visited{
-        color: #e1b53d;;
-
-    }
-}
-
-.ref- {
-    font-size: 12px;
-    
-    padding: 5px; 
-    margin: 5px;
-    
-    background: rgba( 147, 116, 33, 0.2 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 7.5px );
-    -webkit-backdrop-filter: blur( 7.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-    transition-property: all;
-    transition-duration: .5s;
-    transition-timing-function: ease;
-    
-}
 .footer-basic {
     padding:40px 0;
     background-color: #000000;
@@ -209,10 +130,7 @@
     }
     
 
-    .ytvideo1 {
-        transform: translate(-100px, 200px);
-        
-    }
+    
     .iframe {
     
         
@@ -241,10 +159,7 @@
     }
     
 
-    .ytvideo1 {
-        transform: translate(-450px, -200px);
-        
-    }
+    
     .iframe {
         height: 400px;
         width: 600px;
@@ -263,10 +178,7 @@
     }
     
 
-    .ytvideo1 {
-        
-        transform: translate(-450px, -200px);
-    }
+    
     .iframe {
         height: 400px;
         width: 600px;
@@ -291,8 +203,5 @@
     }
     
 
-    .ytvideo1 {
-        
-        transform: translate(-200px, 200px);
-    }
+    
 }
