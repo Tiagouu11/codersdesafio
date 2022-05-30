@@ -73,8 +73,20 @@ body {
 li {
   color: #937421; }
 
-.l {
-  font-size: 24px; }
+.typolist-1 {
+  font-size: 128px; }
+
+.typolist-2 {
+  font-size: 64px; }
+
+.typolist-3 {
+  font-size: 42.66667px; }
+
+.typolist-4 {
+  font-size: 32px; }
+
+.typolist-5 {
+  font-size: 25.6px; }
 
 main div ul a:hover {
   text-decoration: none;

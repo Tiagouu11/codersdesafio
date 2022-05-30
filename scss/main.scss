@@ -121,8 +121,14 @@ body {
 li {
     color: #937421;
 }
-.l {
-    font-size: 24px;
+
+
+// bucle
+@for $i from 1 to 6 {
+
+    .typolist-#{$i} {
+        font-size: 64px / $i*2
+    }
 }
 
 
