@@ -1,0 +1,31 @@
+.main-container{
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+    margin: 5px; 
+    padding: 5px;
+    align-items: center;
+    
+}
+.container-mapsite{
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+    border: 5px solid rgb(161, 161, 161);
+    border-radius: 6px;
+    
+    margin: 5px; 
+    padding: 5px;
+    
+    
+}
+
+.hs-mapsite {
+    color: rgb(161, 161, 161);
+    text-decoration: underline;
+}
+

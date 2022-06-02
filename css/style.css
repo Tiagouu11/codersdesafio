@@ -532,7 +532,9 @@ main div ul :visited {
   font-size: 1,3em;
   text-decoration: underline;
   color: #746c89;
-  text-align: left; }
+  text-align: left;
+  margin: 5px;
+  padding: 5px; }
 
 .texto-info {
   font-family: "Poppins";
@@ -542,7 +544,9 @@ main div ul :visited {
   width: 500px;
   height: 100px;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px; }
 
 .hr {
   height: 15px;
@@ -940,3 +944,22 @@ a {
   .img- {
     width: 600px;
     height: 600px; } }
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px;
+  align-items: center; }
+
+.container-mapsite {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid #a1a1a1;
+  border-radius: 6px;
+  margin: 5px;
+  padding: 5px; }
+
+.hs-mapsite {
+  color: #a1a1a1;
+  text-decoration: underline; }
