@@ -59,6 +59,7 @@ body {
     width: 7px;
     margin:  7px;
     padding: 10px;
+    
     /*background: rgba( 147, 116, 33, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 7.5px );
@@ -120,6 +121,7 @@ body {
 
 li {
     color: #937421;
+    margin-bottom: -5px;
 }
 
 
@@ -208,7 +210,7 @@ main div ul :visited {
     
     
     transition-property: all;
-    transition-duration: .5s;
+    transition-duration: 2s;
     transition-timing-function: ease;
    :hover{
         transform: scale(1);

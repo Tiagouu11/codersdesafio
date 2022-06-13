@@ -104,3 +104,34 @@ iframe {
  .list-inline{
      color: #e1b53d97;
  }
+
+
+ /** ================
+     * Responsive
+     ===================*/
+    @media screen and (max-width: 1024px){
+      
+      
+      .video-sbns {
+          display: none
+
+      }
+
+
+    }
+    @media screen and (max-width: 600px){
+      
+      .texto-info {
+        width: 400px;
+        height: 100px;
+        
+      }
+      .titulo-info{
+        font-size: 12px;
+      }
+      
+
+
+    }
+
+
